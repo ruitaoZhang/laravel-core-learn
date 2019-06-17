@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
+ * 依赖注入,控制翻转,反射各个概念的理解和使用
  * User: zrt
  * Date: 2019/6/17
  * Time: 10:13
@@ -112,3 +112,5 @@ $user->login();
 //3-NULL
 //5-array(1) { [0]=> object(FileLog)#7 (0) { } }
 exit;
+
+//教程地址：https://learnku.com/docs/laravel-core-concept/5.5/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5,%E6%8E%A7%E5%88%B6%E7%BF%BB%E8%BD%AC,%E5%8F%8D%E5%B0%84/3017

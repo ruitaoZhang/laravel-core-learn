@@ -45,3 +45,5 @@ class User
 // 所以此处就引用了 面向接口编程 的方法来解决该问题
 $user = new User(new DatabaseLog());
 $user->login();
+
+//教程地址：https://learnku.com/docs/laravel-core-concept/5.5/Contracts/3021

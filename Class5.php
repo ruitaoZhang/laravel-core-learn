@@ -41,13 +41,12 @@ $pipe_arr = [
     'SetCookie'
 ];
 $callback = array_reduce($pipe_arr,function($stack,$pipe) {
+    echo '<pre>';
+    print_r($stack);
+    echo $pipe;
+    echo "<br/>";
+    echo '</pre>';
     return function() use($stack,$pipe){
-        echo '<pre>';
-        print_r($stack);
-        echo $pipe;
-        echo "<br/>";
-        echo '</pre>';
-
         return $pipe::handle($stack);
     };
 },$handle);
